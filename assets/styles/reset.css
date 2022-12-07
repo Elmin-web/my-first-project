@@ -1,0 +1,12 @@
+ol li:first-child {
+   color: blue;
+}
+ol li:nth-child(2) {
+   color: orange;
+}
+ol li:last-child {
+   color: red;
+}
+ol li:hover {
+    color: yellow;
+} 
