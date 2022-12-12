@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.testimonial {
+  width: 100%;
+  height: 780px;
+  background-color: #efefef;
+  padding: 112px 120px;
+  box-sizing: border-box;
+}
+.testimonial h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 55px;
+  line-height: 55px;
+  margin-bottom: 60px;
+}
+.comment {
+  max-width: 790px;
+  height: 452px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 40px 45px;
+  box-sizing: border-box;
+}
+.comment-text p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 48px;
+  font-family: "Roboto", sans-serif;
+}
+.comment-profile {
+  display: flex;
+  align-items: center;
+}
+.comment-profile-image {
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/Photo.png);
+  background-size: 100%;
+}
+.comment-profile-text {
+  margin-left: 48px;
+}
+.comment-profile-title {
+  font-family: "Roboto Slab";
+  font-size: 30px;
+  line-height: 30px;
+}
+.fa-brands.fa-square-facebook {
+  font-size: 32px;
+  margin-top: 20px;
+  color: #3b5998;
+}
+.info {
+  width: 100%;
+  height: 780px;
+  background-color: #9dc9c8;
+  padding: 180px 120px;
+  box-sizing: border-box;
+}
+.info-title {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  line-height: 55px;
+  margin-bottom: 54px;
+}
+.info-price-title {
+  font-family: "Roboto";
+  font-size: 25px;
+  line-height: 25px;
+}
+.info-price {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 80px;
+}
+.info-text {
+  width: 664px;
+  display: flex;
+  justify-content: space-between;
+}
+.info-text-left {
+  width: 294px;
+}
+.left-desc-title {
+  font-family: "Roboto";
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 16px;
+}
+.left-desc-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 18px;
+}
+.info-text-right {
+  width: 294px;
+}
+.right-desc-title {
+  font-family: "Roboto";
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 16px;
+}
+.right-desc-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 18px;
+}
+.footer {
+  width: 100%;
+  height: 388px;
+  background-color: #000000;
+  padding: 48px 120px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-left-logo {
+  width: 115px;
+  height: 68px;
+  background-image: url(../images/logo_mobile_white.png);
+  margin-bottom: 32px;
+}
+.footer-left-social {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left-bottom {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.fa-brands {
+  font-size: 32px;
+  color: #ffffff;
+}
+.footer-right-phone {
+  display: flex;
+  margin-bottom: 12px;
+}
+.footer-right-mail {
+  display: flex;
+}
+.fa-solid {
+  font-size: 28px;
+  color: #ffffff;
+  margin-right: 24px;
+}
+.footer-text {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #ffffff;
+}
+@media screen and (max-width: 992px) {
+  .testimonial {
+    width: 100%;
+    height: 452px;
+    background-color: #efefef;
+    padding: 64px 72px;
+    box-sizing: border-box;
+  }
+  .testimonial h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 40px;
+  }
+  .comment {
+    max-width: 460px;
+    height: 262px;
+    background-color: #ffffff;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    padding: 24px 24px;
+    box-sizing: border-box;
+  }
+  .comment-text p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 24px;
+    font-family: "Roboto", sans-serif;
+  }
+  .comment-profile-image {
+    width: 88px;
+    height: 88px;
+    background-image: url(../images/Photo.png);
+    background-size: 100%;
+  }
+  .comment-profile-text {
+    margin-left: 30px;
+  }
+  .comment-profile-title {
+    font-family: "Roboto Slab";
+    font-size: 17px;
+    line-height: 17px;
+  }
+  .fa-brands.fa-square-facebook {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #3b5998;
+  }
+  .info {
+    width: 100%;
+    height: 452px;
+    background-color: #9dc9c8;
+    padding: 108px 72px;
+    box-sizing: border-box;
+  }
+  .info-title {
+    font-family: "Roboto Slab";
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 32px;
+  }
+  .info-price-title {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .info-price {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 32px;
+  }
+  .info-text {
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .info-text-left {
+    width: 170px;
+  }
+  .left-desc-title {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+  .left-desc-text {
+    font-family: "Roboto";
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .info-text-right {
+    width: 170px;
+  }
+  .right-desc-title {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+  .right-desc-text {
+    font-family: "Roboto";
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .footer {
+    width: 100%;
+    height: 226px;
+    background-color: #000000;
+    padding: 32px 72px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-left-logo {
+    width: 66.6px;
+    height: 39.38px;
+    background-image: url(../images/logo_mobile_white.png);
+    margin-bottom: 18px;
+    background-size: 100%;
+  }
+  .footer-left-bottom {
+    font-family: "Roboto";
+    font-size: 10px;
+    line-height: 10px;
+    color: #ffffff;
+  }
+  .fa-brands {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .footer-right-phone {
+    display: flex;
+    margin-bottom: 8px;
+  }
+  .fa-solid {
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 12px;
+  }
+  .footer-text {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 568px) {
+  .testimonial {
+    width: 100%;
+    height: 424px;
+    background-color: #efefef;
+    padding: 52px 34px;
+    box-sizing: border-box;
+  }
+  .testimonial h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 26px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  .comment {
+    max-width: 308px;
+    height: 248px;
+    background-color: #ffffff;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 18px 21px;
+    box-sizing: border-box;
+  }
+  .comment-text p {
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 18px;
+    font-family: "Roboto", sans-serif;
+  }
+  .comment-profile-image {
+    width: 76px;
+    height: 76px;
+    background-image: url(../images/Photo.png);
+    background-size: 100%;
+  }
+  .comment-profile-text {
+    margin-left: 16px;
+  }
+  .comment-profile-title {
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .fa-brands.fa-square-facebook {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #3b5998;
+  }
+  .info {
+    width: 100%;
+    height: 364px;
+    background-color: #9dc9c8;
+    padding: 64px 34px;
+    box-sizing: border-box;
+  }
+  .info-title {
+    font-family: "Roboto Slab";
+    font-size: 26px;
+    line-height: 26px;
+    margin-bottom: 26px;
+  }
+  .info-price-title {
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .info-price {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 37px;
+    margin-bottom: 32px;
+  }
+  .info-text {
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .info-text-left {
+    width: 140px;
+  }
+  .left-desc-title {
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 8px;
+  }
+  .info-text-right {
+    width: 140px;
+  }
+  .right-desc-title {
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 8px;
+  }
+  .footer {
+    width: 100%;
+    height: 252px;
+    background-color: #000000;
+    padding: 24px 38px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .footer-left-logo {
+    width: 53.59px;
+    height: 31.69px;
+    background-image: url(../images/logo_mobile_white.png);
+    margin-bottom: 15px;
+    background-size: 100%;
+  }
+  .footer-left-bottom {
+    font-family: "Roboto";
+    font-size: 10px;
+    line-height: 10px;
+    color: #ffffff;
+  }
+  .fa-brands {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .footer-right {
+    position: absolute;
+    margin-top: 104px;
+  }
+  .footer-right-phone {
+    display: flex;
+    margin-bottom: 8px;
+  }
+  .fa-solid {
+    font-size: 12px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+  .footer-text {
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #ffffff;
+  }
+}
