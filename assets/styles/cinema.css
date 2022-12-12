@@ -1,0 +1,17 @@
+
+.cinema {
+    display: flex;
+    align-items: center;
+}
+.cinema .cinema_date_img {
+    width: 232px;
+    height: 203px;
+}
+.cinema .cinema_date_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cinema .cinema_date {
+    display: flex;
+}
